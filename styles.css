@@ -7,9 +7,9 @@
 }
 
 .box {
-  background-color: blue;
-  border: 2px solid red;
+  background-color: darkslategrey;
+  border: 0.5px groove #fff;
   box-sizing: border-box;
   flex-grow: 1 1 auto;
-  padding: 2.8%;
+  padding: 2.9%;
 }

@@ -7,3 +7,12 @@ for (let i = 0; i < 16; i++) {
     container.appendChild(divBox);
   }
 }
+
+for (const item of container.children) {
+  item.addEventListener('mouseenter', leaveTrace);
+
+  function leaveTrace(e) {
+    e.target.style.filter = 'brightness(140%)';
+    e.target.style.border = '1px solid transparent';
+  }
+}
